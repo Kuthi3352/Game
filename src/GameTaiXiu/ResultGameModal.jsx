@@ -28,22 +28,22 @@ const ResultGameModal = () => {
                 {chooseOptions === 'Tài' && points >= 11 ? (
                     <div>
                         <p className='mb-4'>{points} điểm. Bạn chọn Tài</p>
-                        <p>Hên Thôi</p>
+                        <p>Bạn đã thắng !</p>
                     </div>
                 ) : chooseOptions === 'Tài' && points < 11 ? (
                     <div>
                         <p className='mb-4'>{points} điểm. Bạn chọn Tài</p>
-                        <p>Mày Ngu Vừa Thôi</p>
+                        <p>Bạn Thua Rồi !</p>
                     </div>
                 ) : chooseOptions === 'Xỉu' && points < 11 ? (
                     <div>
                         <p className='mb-4'>{points} điểm. Bạn chọn Xỉu</p>
-                        <p>Hên Thôi</p>
+                        <p>Bạn đã thắng !</p>
                     </div>
                 ) : (
                     <div>
                         <p className='mb-4'>{points} điểm. Bạn chọn Xỉu</p>
-                        <p>Mày Ngu Vừa Thôi</p>
+                        <p>Bạn Thua Rồi !</p>
                     </div>
                 )}
             </div>
