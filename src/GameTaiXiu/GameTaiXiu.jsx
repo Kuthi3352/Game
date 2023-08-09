@@ -54,7 +54,7 @@ const GameTaiXiu = () => {
     return (
         <Wrapper>
             <div className='max-w-screen-lg mx-auto'>
-                <h1 className='text-8xl text-center mb-10'>GAME ĐỔ XÚC XẮC</h1>
+                <h1 className='text-8xl text-center mb-10'>GAME ĐỔ TÀI XỈU</h1>
                 <div className='flex justify-between'>
                     <OptionsStyled onClick={() => handleChooseOption('Tài')}>Tài</OptionsStyled>
                     <div className='flex'>
